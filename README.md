@@ -7,14 +7,19 @@ File Structure
 
 solar-rooftop-ai/
 ├── solar_rooftop_ai_tool.py     # Main application
+
 ├── requirements.txt             # Python dependencies
+
 └── README.md                    # Documentation
 
 Code Explanation: solar_rooftop_ai_tool.py
 
 import streamlit as st
+
 import numpy as np
+
 import cv2
+
 from PIL import Image
 
 Streamlit: Used to create an interactive web UI.
@@ -45,8 +50,11 @@ Enters location and average sunlight to customize ROI.
 ⚙️ Constants
 
 PANEL_EFFICIENCY = 0.18
+
 SYSTEM_LOSS = 0.85
+
 COST_PER_WATT = 1.2
+
 AVG_COST_PER_KWH = 0.15
 
 These define technical and financial parameters used in energy and ROI calculations.
