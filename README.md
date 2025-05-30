@@ -101,7 +101,7 @@ Install using: pip install -r requirements.txt
 
 🚀 Run Locally
 
-git clone https://github.com/YOUR_USERNAME/solar-rooftop-ai.git
+git clone https://github.com/IpshitaKarmakar/solar-rooftop-ai.git
 cd solar-rooftop-ai
 pip install -r requirements.txt
 streamlit run solar_rooftop_ai_tool.py
